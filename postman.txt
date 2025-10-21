@@ -1,0 +1,268 @@
+POSTMAN Collection link: 
+https://testproductsinventory.postman.co/workspace/express-js~ee7b609e-11f1-473b-be0f-ced1877d3188/collection/42904887-379d70cf-5942-41f5-b8e0-db8d5818d74d?action=share&creator=42904887
+
+
+//Curl requests
+
+1. Signup
+curl --location 'http://localhost:3000/api/auth/signup' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "xlr812334",
+    "password": "xlr81232ds"
+}'
+
+
+2. signup_user_already_exists
+curl --location 'http://localhost:3000/api/auth/signup' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "xlr8",
+    "password": "xlr8123"
+}'
+
+3. login
+curl --location 'http://localhost:3000/api/auth/login' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "admin",
+    "password": "admin123"
+}'
+
+4. login_invalid_credentials
+curl --location 'http://localhost:3000/api/auth/login' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "admin1122",
+    "password": "admin123"
+}'
+
+5. get_all_products
+curl --location 'http://localhost:3000/api/products/' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data ''
+
+6. get_product_by_id
+curl --location 'http://localhost:3000/api/products/152' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data ''
+
+7. get_product_by_id_Not_Found
+curl --location 'http://localhost:3000/api/products/1555' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data ''
+
+8. create_product
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Samsung Galaxy S23",
+    "description": "Latest Samsung flagship phone",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "price": 74999,
+    "currency": "INR",
+    "quantity": 15,
+    "manufacturing_date": "2024-03-10"
+}'
+
+9. create_product_default_values
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Basic Laptop",
+    "category": "Electronics",
+    "price": 35000
+}'
+
+10. create_product_auto_status
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "price": 2500,
+    "quantity": 20
+}'
+
+11. create_product_missing_fields
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "category": "Electronics",
+    "price": 25000
+}'
+
+12. create_product_invalid_status
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Test Product",
+    "category": "Electronics",
+    "price": 25000,
+    "quantity": 1,
+    "status": "invalid"
+}'
+
+13. create_product_in-stock_error
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Test Product",
+    "category": "Electronics",
+    "price": 25000,
+    "quantity": 10,
+    "status": "low-stock"
+}'
+
+14. create_product_out-of-stock_error
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Test Product",
+    "category": "Electronics",
+    "price": 25000,
+    "quantity": 0,
+    "status": "low-stock"
+}'
+
+15. create_product_low-stock_error
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Test Product",
+    "category": "Electronics",
+    "price": 25000,
+    "quantity": 5,
+    "status": "in-stock"
+}'
+
+16. create_product_invalid_date
+curl --location 'http://localhost:3000/api/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "Test Product",
+    "category": "Electronics",
+    "price": 25000,
+    "manufacturing_date": "2020-05-31"
+}'
+
+17. update_product
+curl --location --request PUT 'http://localhost:3000/api/products/400' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14 Pro",
+    "description": "Latest Apple smartphone with Pro features",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 89999,
+    "currency": "INR",
+    "quantity": 20,
+    "status": "in-stock",
+    "manufacturing_date": "2024-04-20"
+}'
+
+18. update_product_Not_Found
+curl --location --request PUT 'http://localhost:3000/api/products/4000' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14 Pro",
+    "description": "Latest Apple smartphone with Pro features",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 89999,
+    "currency": "INR",
+    "quantity": 20,
+    "status": "in-stock",
+    "manufacturing_date": "2024-04-20"
+}'
+
+19. update_product_Required_Fields
+curl --location --request PUT 'http://localhost:3000/api/products/200' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "description": "Updated description",
+    "price": 25000
+}'
+
+20. update_product_Invalid_Status
+curl --location --request PUT 'http://localhost:3000/api/products/201' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14",
+    "category": "Electronics",
+    "price": 79999,
+    "quantity": 0,
+    "status": "in-stock"
+}'
+
+21. update_product_Invalid_Date
+curl --location --request PUT 'http://localhost:3000/api/products/205' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14",
+    "category": "Electronics",
+    "price": 79999,
+    "manufacturing_date": "2020-05-15"
+}'
+
+22. partially_update PATCH
+curl --location --request PATCH 'http://localhost:3000/api/products/10' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14 Updated",
+    "price": 75999
+}'
+
+23. partially_update_Not_Found
+curl --location --request PATCH 'http://localhost:3000/api/products/10000' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "name": "iPhone 14 Updated",
+    "price": 75999
+}'
+
+24. partially_update_Invalid_Status
+curl --location --request PATCH 'http://localhost:3000/api/products/100' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "quantity": 0,
+    "status": "in-stock"
+}'
+
+25. partially_update_Invalid_Date
+curl --location --request PATCH 'http://localhost:3000/api/products/100' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data '{
+    "manufacturing_date": "2020-12-25"
+}'
+
+26. delete_product by id 
+curl --location --request DELETE 'http://localhost:3000/api/products/50' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data ''
+
+27. delete_product_Not_Found
+curl --location --request DELETE 'http://localhost:3000/api/products/5000' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlhdCI6MTc0OTk3NTEwNiwiZXhwIjoxNzUwMDYxNTA2fQ.a4Cg3atdJ5iscxyaKoh0nGLmOuyYBvJEVYRfRREoCIA' \
+--data ''
+
+

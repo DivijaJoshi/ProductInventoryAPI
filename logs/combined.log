@@ -1,0 +1,2840 @@
+2025-06-15 12:33:47 [32minfo[39m, GET /
+2025-06-15 12:34:14 [32minfo[39m, GET /api/products
+2025-06-15 12:34:14 [32minfo[39m, GET /favicon.ico
+2025-06-15 12:35:01 [32minfo[39m, GET /auth/login
+2025-06-15 12:35:10 [32minfo[39m, GET /api/auth/login
+2025-06-15 12:35:23 [32minfo[39m, GET /api/auth/login
+2025-06-15 12:35:24 [32minfo[39m, GET /api/auth/login
+2025-06-15 12:35:25 [32minfo[39m, GET /api/auth/login
+2025-06-15 12:35:38 [32minfo[39m, GET /api/auth/signup
+2025-06-15 12:37:59 [32minfo[39m, POST /api/auth/login
+2025-06-15 12:38:09 [32minfo[39m, POST /api/auth/signup
+2025-06-15 13:41:46 [32minfo[39m, POST /api/auth/login
+2025-06-15 13:44:02 [32minfo[39m, POST /api/auth/signup
+2025-06-15 13:48:16 [32minfo[39m, GET /api/products/
+2025-06-15 13:51:32 [32minfo[39m, GET /api/products/
+2025-06-15 13:51:33 [32minfo[39m, GET /api/products/
+2025-06-15 13:51:41 [32minfo[39m, GET /api/products
+2025-06-15 13:53:36 [32minfo[39m, GET /api/products/
+2025-06-15 13:54:16 [32minfo[39m, GET /api/products/
+2025-06-15 13:55:43 [32minfo[39m, GET /api/products/1
+2025-06-15 13:55:54 [32minfo[39m, GET /api/products/150
+2025-06-15 13:56:02 [32minfo[39m, GET /api/products/15000
+2025-06-15 13:56:07 [32minfo[39m, GET /api/products/150
+2025-06-15 13:57:36 [32minfo[39m, PUT /api/products/150
+2025-06-15 13:58:07 [32minfo[39m, PUT /api/products/150
+2025-06-15 13:58:30 [32minfo[39m, PUT /api/products/150
+2025-06-15 13:58:44 [32minfo[39m, PUT /api/products/150
+2025-06-15 14:00:08 [32minfo[39m, PATCH /api/products/10
+2025-06-15 14:01:33 [32minfo[39m, DELETE /api/products/65
+2025-06-15 14:01:40 [32minfo[39m, DELETE /api/products/6500
+2025-06-15 14:01:45 [32minfo[39m, DELETE /api/products/65
+2025-06-15 14:01:51 [32minfo[39m, DELETE /api/products/66
+2025-06-15 14:10:10 [32minfo[39m, DELETE /api/products/6644
+2025-06-15 14:10:10 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6644,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:10:20 [32minfo[39m, DELETE /api/products/664
+2025-06-15 14:10:26 [32minfo[39m, DELETE /api/products/6647
+2025-06-15 14:10:26 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6647,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:16:36 [32minfo[39m, DELETE /api/products/6647
+2025-06-15 14:16:36 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6647,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:16:38 [32minfo[39m, DELETE /api/products/6647
+2025-06-15 14:16:38 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6647,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:16:40 [32minfo[39m, DELETE /api/products/6647
+2025-06-15 14:16:40 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6647,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:17:16 [32minfo[39m, DELETE /api/products/6647
+2025-06-15 14:17:16 [31merror[39m, Error: 
+        DELETE,
+        /api/products/6647,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-15 14:23:30 [32minfo[39m, POST /api/products/
+2025-06-15 14:23:30 [31merror[39m, Error: 
+        POST,
+        /api/products/,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-15 14:24:18 [32minfo[39m, POST /api/products/
+2025-06-15 14:24:18 [31merror[39m, Error: 
+        POST,
+        /api/products/,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-15 14:25:41 [32minfo[39m, POST /api/products/
+2025-06-16 02:04:30 [32minfo[39m, POST /api/products/
+2025-06-16 02:04:38 [32minfo[39m, POST /api/products/
+2025-06-16 04:55:22 [32minfo[39m, GET /api/auth/signup
+2025-06-16 04:55:28 [32minfo[39m, GET /api/products
+2025-06-16 04:55:35 [32minfo[39m, GET /api/products/1
+2025-06-16 04:55:42 [32minfo[39m, GET /api/products/
+2025-06-16 05:15:23 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 05:15:23 [32minfo[39m, GET /api/products
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        GET,
+        /api/products,
+        undefined,
+        undefined,
+        JsonWebTokenError
+2025-06-16 05:15:23 [32minfo[39m, GET /api/products
+2025-06-16 05:15:23 [32minfo[39m, GET /api/products/1
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        GET,
+        /api/products/1,
+        undefined,
+        undefined,
+        JsonWebTokenError
+2025-06-16 05:15:23 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:15:23 [32minfo[39m, POST /api/products
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        undefined,
+        JsonWebTokenError
+2025-06-16 05:15:23 [32minfo[39m, POST /api/products
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        undefined,
+        JsonWebTokenError
+2025-06-16 05:15:23 [32minfo[39m, POST /api/products/1
+2025-06-16 05:15:23 [32minfo[39m, POST /api/product/555
+2025-06-16 05:15:23 [32minfo[39m, POST /api/products/1
+2025-06-16 05:15:23 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:15:23 [31merror[39m, Error: 
+        DELETE,
+        /api/products/1,
+        undefined,
+        undefined,
+        JsonWebTokenError
+2025-06-16 05:15:23 [32minfo[39m, DELETE /api/product/555
+2025-06-16 05:19:01 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:19:01 [32minfo[39m, GET /api/products
+2025-06-16 05:19:01 [32minfo[39m, GET /api/products
+2025-06-16 05:19:01 [32minfo[39m, GET /api/products/1
+2025-06-16 05:19:01 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:19:01 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:19:01 [32minfo[39m, POST /api/products
+2025-06-16 05:19:01 [32minfo[39m, POST /api/products
+2025-06-16 05:19:01 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:19:01 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:19:01 [32minfo[39m, POST /api/products/555
+2025-06-16 05:19:01 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:19:01 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:19:01 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:19:01 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:22:46 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:22:46 [32minfo[39m, GET /api/products
+2025-06-16 05:22:46 [32minfo[39m, GET /api/products
+2025-06-16 05:22:46 [32minfo[39m, GET /api/products/1
+2025-06-16 05:22:46 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:22:46 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:22:46 [32minfo[39m, POST /api/products
+2025-06-16 05:22:46 [32minfo[39m, POST /api/products
+2025-06-16 05:22:46 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:22:46 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:22:46 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:22:46 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:22:46 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:22:46 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:22:46 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:22:46 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:25:58 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:25:58 [32minfo[39m, GET /api/products
+2025-06-16 05:25:58 [32minfo[39m, GET /api/products
+2025-06-16 05:25:58 [32minfo[39m, GET /api/products/1
+2025-06-16 05:25:58 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:25:58 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:25:58 [32minfo[39m, POST /api/products
+2025-06-16 05:25:58 [32minfo[39m, POST /api/products
+2025-06-16 05:25:58 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:25:58 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:25:58 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:25:58 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:25:58 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:25:58 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:25:58 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:25:58 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:29:05 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:29:05 [32minfo[39m, GET /api/products
+2025-06-16 05:29:05 [32minfo[39m, GET /api/products
+2025-06-16 05:29:05 [32minfo[39m, GET /api/products/1
+2025-06-16 05:29:05 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:29:05 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:29:05 [32minfo[39m, POST /api/products
+2025-06-16 05:29:05 [32minfo[39m, POST /api/products
+2025-06-16 05:29:05 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:29:05 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:29:05 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:29:05 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:29:05 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:29:05 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:29:05 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:29:05 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:50:39 [32minfo[39m, GET /api/products
+2025-06-16 05:50:39 [32minfo[39m, GET /api/products
+2025-06-16 05:50:39 [32minfo[39m, GET /api/products/1
+2025-06-16 05:50:39 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, POST /api/products
+2025-06-16 05:50:39 [32minfo[39m, POST /api/products
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:50:39 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:50:39 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:50:39 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, POST /api/products
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 05:50:39 [32minfo[39m, POST /api/products
+2025-06-16 05:50:39 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:53:16 [32minfo[39m, GET /api/products
+2025-06-16 05:53:16 [32minfo[39m, GET /api/products
+2025-06-16 05:53:16 [32minfo[39m, GET /api/products/1
+2025-06-16 05:53:16 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, POST /api/products
+2025-06-16 05:53:16 [32minfo[39m, POST /api/products
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:53:16 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:53:16 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:53:16 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, POST /api/products
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 05:53:16 [32minfo[39m, POST /api/products
+2025-06-16 05:53:16 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, POST /api/auth/login
+2025-06-16 05:58:36 [32minfo[39m, GET /api/products
+2025-06-16 05:58:36 [32minfo[39m, GET /api/products
+2025-06-16 05:58:36 [32minfo[39m, GET /api/products/1
+2025-06-16 05:58:36 [32minfo[39m, GET /api/products/1222
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, POST /api/products
+2025-06-16 05:58:36 [32minfo[39m, POST /api/products
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, PUT /api/products/1
+2025-06-16 05:58:36 [32minfo[39m, PUT /api/products/555
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, PATCH /api/products/1
+2025-06-16 05:58:36 [32minfo[39m, DELETE /api/products/1
+2025-06-16 05:58:36 [32minfo[39m, DELETE /api/products/555
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, POST /api/products
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 05:58:36 [32minfo[39m, POST /api/products
+2025-06-16 05:58:36 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:01:23 [32minfo[39m, GET /api/products
+2025-06-16 06:01:23 [32minfo[39m, GET /api/products
+2025-06-16 06:01:23 [32minfo[39m, GET /api/products/1
+2025-06-16 06:01:23 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, POST /api/products
+2025-06-16 06:01:23 [32minfo[39m, POST /api/products
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:01:23 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:01:23 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:01:23 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, POST /api/products
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:01:23 [32minfo[39m, POST /api/products
+2025-06-16 06:01:23 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:04:48 [32minfo[39m, GET /api/products
+2025-06-16 06:04:48 [32minfo[39m, GET /api/products
+2025-06-16 06:04:48 [32minfo[39m, GET /api/products/1
+2025-06-16 06:04:48 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, POST /api/products
+2025-06-16 06:04:48 [32minfo[39m, POST /api/products
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:04:48 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:04:48 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:04:48 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, POST /api/products
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:04:48 [32minfo[39m, POST /api/products
+2025-06-16 06:04:48 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:07:11 [32minfo[39m, GET /api/products
+2025-06-16 06:07:11 [32minfo[39m, GET /api/products
+2025-06-16 06:07:11 [32minfo[39m, GET /api/products/1
+2025-06-16 06:07:11 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, POST /api/products
+2025-06-16 06:07:11 [32minfo[39m, POST /api/products
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:07:11 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:07:11 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:07:11 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, POST /api/products
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:07:11 [32minfo[39m, POST /api/products
+2025-06-16 06:07:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:08:06 [32minfo[39m, GET /api/products
+2025-06-16 06:08:06 [32minfo[39m, GET /api/products
+2025-06-16 06:08:06 [32minfo[39m, GET /api/products/1
+2025-06-16 06:08:06 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, POST /api/products
+2025-06-16 06:08:06 [32minfo[39m, POST /api/products
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:08:06 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:08:06 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:08:06 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, POST /api/products
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:08:06 [32minfo[39m, POST /api/products
+2025-06-16 06:08:06 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:09:19 [32minfo[39m, GET /api/products
+2025-06-16 06:09:19 [32minfo[39m, GET /api/products
+2025-06-16 06:09:19 [32minfo[39m, GET /api/products/1
+2025-06-16 06:09:19 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, POST /api/products
+2025-06-16 06:09:19 [32minfo[39m, POST /api/products
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:09:19 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:09:19 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:09:19 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, POST /api/products
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:09:19 [32minfo[39m, POST /api/products
+2025-06-16 06:09:19 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:11:01 [32minfo[39m, GET /api/products
+2025-06-16 06:11:01 [32minfo[39m, GET /api/products
+2025-06-16 06:11:01 [32minfo[39m, GET /api/products/1
+2025-06-16 06:11:01 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, POST /api/products
+2025-06-16 06:11:01 [32minfo[39m, POST /api/products
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:11:01 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:11:01 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:11:01 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, POST /api/products
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:11:01 [32minfo[39m, POST /api/products
+2025-06-16 06:11:01 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:11:25 [32minfo[39m, GET /api/products
+2025-06-16 06:11:25 [32minfo[39m, GET /api/products
+2025-06-16 06:11:25 [32minfo[39m, GET /api/products/1
+2025-06-16 06:11:25 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, POST /api/products
+2025-06-16 06:11:25 [32minfo[39m, POST /api/products
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:11:25 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:11:25 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:11:25 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, POST /api/products
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:11:25 [32minfo[39m, POST /api/products
+2025-06-16 06:11:25 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:35:07 [32minfo[39m, GET /api/products
+2025-06-16 06:35:07 [32minfo[39m, GET /api/products
+2025-06-16 06:35:07 [32minfo[39m, GET /api/products/1
+2025-06-16 06:35:07 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/products
+2025-06-16 06:35:07 [32minfo[39m, POST /api/products
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:35:07 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:35:07 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:35:07 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/products
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/products
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:35:07 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:35:07 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:35:07 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:35:07 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:36:41 [32minfo[39m, GET /api/products
+2025-06-16 06:36:41 [32minfo[39m, GET /api/products
+2025-06-16 06:36:41 [32minfo[39m, GET /api/products/1
+2025-06-16 06:36:41 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/products
+2025-06-16 06:36:41 [32minfo[39m, POST /api/products
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:36:41 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:36:41 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:36:41 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/products
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/products
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:36:41 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:36:41 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:36:41 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:36:41 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:37 [32minfo[39m, GET /api/products
+2025-06-16 06:40:37 [32minfo[39m, GET /api/products
+2025-06-16 06:40:37 [32minfo[39m, GET /api/products/1
+2025-06-16 06:40:37 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/products
+2025-06-16 06:40:37 [32minfo[39m, POST /api/products
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:40:37 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:40:37 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:40:37 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/products
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/products
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/products
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:40:37 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:40:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:37 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:56 [32minfo[39m, GET /api/products
+2025-06-16 06:40:56 [32minfo[39m, GET /api/products
+2025-06-16 06:40:56 [32minfo[39m, GET /api/products/1
+2025-06-16 06:40:56 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/products
+2025-06-16 06:40:56 [32minfo[39m, POST /api/products
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:40:56 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:40:56 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:40:56 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/products
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/products
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/products
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:40:56 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:40:56 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:56 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:40:56 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:49:08 [32minfo[39m, GET /api/products
+2025-06-16 06:49:08 [32minfo[39m, GET /api/products
+2025-06-16 06:49:08 [32minfo[39m, GET /api/products/1
+2025-06-16 06:49:08 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:49:08 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:49:08 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:49:08 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [32minfo[39m, POST /api/products
+2025-06-16 06:49:08 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:49:08 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:49:08 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:49:08 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:49:08 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:52:49 [32minfo[39m, GET /api/products
+2025-06-16 06:52:49 [32minfo[39m, GET /api/products
+2025-06-16 06:52:49 [32minfo[39m, GET /api/products/1
+2025-06-16 06:52:49 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:52:49 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:52:49 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:52:49 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [32minfo[39m, POST /api/products
+2025-06-16 06:52:49 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:52:49 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:52:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:52:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:52:49 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:58:43 [32minfo[39m, GET /api/products
+2025-06-16 06:58:43 [32minfo[39m, GET /api/products
+2025-06-16 06:58:43 [32minfo[39m, GET /api/products/1
+2025-06-16 06:58:43 [32minfo[39m, GET /api/products/1222
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, PUT /api/products/1
+2025-06-16 06:58:43 [32minfo[39m, PUT /api/products/555
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, PATCH /api/products/1
+2025-06-16 06:58:43 [32minfo[39m, DELETE /api/products/1
+2025-06-16 06:58:43 [32minfo[39m, DELETE /api/products/555
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, PATCH /api/products
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [32minfo[39m, POST /api/products
+2025-06-16 06:58:43 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:58:43 [32minfo[39m, POST /api/auth/signup
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 06:58:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:58:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 06:58:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:06:39 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:06:39 [32minfo[39m, GET /api/products
+2025-06-16 07:06:39 [32minfo[39m, GET /api/products
+2025-06-16 07:06:39 [32minfo[39m, GET /api/products/1
+2025-06-16 07:06:39 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:06:40 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:06:40 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:06:40 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [32minfo[39m, POST /api/products
+2025-06-16 07:06:40 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:06:40 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:06:40 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:06:40 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:06:40 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:09:49 [32minfo[39m, GET /api/products
+2025-06-16 07:09:49 [32minfo[39m, GET /api/products
+2025-06-16 07:09:49 [32minfo[39m, GET /api/products/1
+2025-06-16 07:09:49 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:09:49 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:09:49 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:09:49 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [32minfo[39m, POST /api/products
+2025-06-16 07:09:49 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:09:49 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:09:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:09:49 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:09:49 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:10:37 [32minfo[39m, GET /api/products
+2025-06-16 07:10:37 [32minfo[39m, GET /api/products
+2025-06-16 07:10:37 [32minfo[39m, GET /api/products/1
+2025-06-16 07:10:37 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:10:37 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:10:37 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:10:37 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [32minfo[39m, POST /api/products
+2025-06-16 07:10:37 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:10:37 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:10:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:10:37 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:10:37 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:25:42 [32minfo[39m, GET /api/products
+2025-06-16 07:25:42 [32minfo[39m, GET /api/products
+2025-06-16 07:25:42 [32minfo[39m, GET /api/products/1
+2025-06-16 07:25:42 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:25:42 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:25:42 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:25:42 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [32minfo[39m, POST /api/products
+2025-06-16 07:25:42 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:25:42 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:25:42 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:25:42 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        undefined,
+        ReferenceError
+2025-06-16 07:25:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:25:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:25:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:25:43 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:25:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:25:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:25:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:25:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:34:32 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:34:32 [32minfo[39m, GET /api/products
+2025-06-16 07:34:32 [32minfo[39m, GET /api/products
+2025-06-16 07:34:32 [32minfo[39m, GET /api/products/1
+2025-06-16 07:34:32 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:34:32 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:34:33 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:34:33 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:34:33 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [32minfo[39m, POST /api/products
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:34:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:34:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:35:11 [32minfo[39m, GET /api/products
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:35:11 [32minfo[39m, GET /api/products
+2025-06-16 07:35:11 [32minfo[39m, GET /api/products/1
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:35:11 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:35:11 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:35:11 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [32minfo[39m, POST /api/products
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:35:11 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:35:11 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, GET /api/products
+2025-06-16 07:36:04 [32minfo[39m, GET /api/products
+2025-06-16 07:36:04 [32minfo[39m, GET /api/products/1
+2025-06-16 07:36:04 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:36:04 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:36:04 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:36:04 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [32minfo[39m, POST /api/products
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:04 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:04 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:55 [32minfo[39m, GET /api/products
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, GET /api/products
+2025-06-16 07:36:55 [32minfo[39m, GET /api/products/1
+2025-06-16 07:36:55 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:36:55 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:36:55 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:36:55 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [32minfo[39m, POST /api/products
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:55 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:36:55 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:38:31 [32minfo[39m, GET /api/products
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, GET /api/products
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:38:31 [32minfo[39m, GET /api/products/1
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:38:31 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:38:31 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:38:31 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [32minfo[39m, POST /api/products
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:38:31 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:38:31 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:41:32 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:41:32 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, GET /api/products
+2025-06-16 07:41:32 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:41:32 [32minfo[39m, GET /api/products
+2025-06-16 07:41:32 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, GET /api/products/1
+2025-06-16 07:41:32 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:41:32 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:41:32 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:41:32 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:32 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:41:32 [32minfo[39m, POST /api/products
+2025-06-16 07:41:33 [32minfo[39m, POST /api/products
+2025-06-16 07:41:33 [32minfo[39m, POST /api/products
+2025-06-16 07:41:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:41:33 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:41:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:41:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:41:33 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:41:33 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:44:47 [32minfo[39m, POST /api/auth/signup
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:44:47 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/auth/login
+2025-06-16 07:44:47 [32minfo[39m, GET /api/products
+2025-06-16 07:44:47 [32minfo[39m, GET /api/products
+2025-06-16 07:44:47 [32minfo[39m, GET /api/products/1
+2025-06-16 07:44:47 [32minfo[39m, GET /api/products/1222
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:44:47 [32minfo[39m, PUT /api/products/555
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:44:47 [32minfo[39m, DELETE /api/products/1
+2025-06-16 07:44:47 [32minfo[39m, DELETE /api/products/555
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [32minfo[39m, PATCH /api/products/1
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, PUT /api/products/1
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:44:47 [32minfo[39m, POST /api/products
+2025-06-16 07:59:05 [32minfo[39m, GET /
+2025-06-16 07:59:13 [32minfo[39m, GET /api/products
+2025-06-16 07:59:13 [32minfo[39m, GET /favicon.ico
+2025-06-16 08:38:41 [32minfo[39m, GET /api/products/
+2025-06-16 08:52:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:52:43 [32minfo[39m, POST /api/auth/signup
+2025-06-16 08:52:43 [32minfo[39m, POST /api/auth/signup
+2025-06-16 08:52:43 [32minfo[39m, GET /api/products
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, GET /api/products
+2025-06-16 08:52:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:52:43 [32minfo[39m, GET /api/products/1
+2025-06-16 08:52:43 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, GET /api/products/1222
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, PUT /api/products/1
+2025-06-16 08:52:43 [32minfo[39m, PUT /api/products/555
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, PATCH /api/products/1
+2025-06-16 08:52:43 [32minfo[39m, DELETE /api/products/1
+2025-06-16 08:52:43 [32minfo[39m, DELETE /api/products/555
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [32minfo[39m, PATCH /api/products/1
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, PUT /api/products/1
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:52:43 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [32minfo[39m, POST /api/auth/signup
+2025-06-16 08:53:10 [32minfo[39m, POST /api/auth/signup
+2025-06-16 08:53:10 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:53:10 [32minfo[39m, GET /api/products
+2025-06-16 08:53:10 [32minfo[39m, POST /api/auth/login
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, GET /api/products
+2025-06-16 08:53:10 [32minfo[39m, GET /api/products/1
+2025-06-16 08:53:10 [32minfo[39m, GET /api/products/1222
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        GET,
+        /api/products/1222,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, PUT /api/products/1
+2025-06-16 08:53:10 [32minfo[39m, PUT /api/products/555
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        PUT,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, PATCH /api/products/1
+2025-06-16 08:53:10 [32minfo[39m, DELETE /api/products/1
+2025-06-16 08:53:10 [32minfo[39m, DELETE /api/products/555
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        DELETE,
+        /api/products/555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [32minfo[39m, PATCH /api/products/1
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        PATCH,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, PUT /api/products/1
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        PUT,
+        /api/products/1,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 08:53:10 [32minfo[39m, POST /api/products
+2025-06-16 09:28:30 [32minfo[39m, POST /api/auth/signup
+2025-06-16 09:28:30 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 09:30:13 [32minfo[39m, POST /api/auth/signup
+2025-06-16 09:30:26 [32minfo[39m, POST /api/auth/login
+2025-06-16 09:30:53 [32minfo[39m, POST /api/auth/login
+2025-06-16 09:30:53 [31merror[39m, Error: 
+        POST,
+        /api/auth/login,
+        undefined,
+        INVALID_CREDENTIALS,
+        Error
+2025-06-16 09:32:41 [32minfo[39m, GET /api/products/
+2025-06-16 09:34:16 [32minfo[39m, GET /api/products/1555
+2025-06-16 09:34:16 [31merror[39m, Error: 
+        GET,
+        /api/products/1555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 09:35:56 [32minfo[39m, POST /api/products
+2025-06-16 09:35:56 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 09:36:05 [32minfo[39m, POST /api/products
+2025-06-16 09:37:10 [32minfo[39m, POST /api/products
+2025-06-16 09:39:14 [32minfo[39m, POST /api/products
+2025-06-16 09:39:22 [32minfo[39m, POST /api/products
+2025-06-16 09:39:30 [32minfo[39m, POST /api/products
+2025-06-16 09:39:41 [32minfo[39m, POST /api/products
+2025-06-16 09:41:38 [32minfo[39m, POST /api/products
+2025-06-16 09:41:38 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 09:41:52 [32minfo[39m, POST /api/products
+2025-06-16 09:42:08 [32minfo[39m, POST /api/products
+2025-06-16 09:42:08 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        MISSING_FIELDS,
+        Error
+2025-06-16 09:43:43 [32minfo[39m, POST /api/products
+2025-06-16 09:43:43 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 09:43:56 [32minfo[39m, POST /api/products
+2025-06-16 09:44:04 [32minfo[39m, POST /api/products
+2025-06-16 09:44:04 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_LOW_QUANTITY,
+        Error
+2025-06-16 09:44:31 [32minfo[39m, POST /api/products
+2025-06-16 09:44:31 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS,
+        Error
+2025-06-16 09:45:46 [32minfo[39m, POST /api/products
+2025-06-16 09:45:46 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 09:46:46 [32minfo[39m, POST /api/products
+2025-06-16 09:46:46 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 09:47:04 [32minfo[39m, POST /api/products
+2025-06-16 09:47:24 [32minfo[39m, POST /api/products
+2025-06-16 09:47:24 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_IN_STOCK,
+        Error
+2025-06-16 09:48:03 [32minfo[39m, POST /api/products
+2025-06-16 09:48:03 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_IN_STOCK,
+        Error
+2025-06-16 09:49:10 [32minfo[39m, POST /api/products
+2025-06-16 09:49:10 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_STATUS_LOW_QUANTITY,
+        Error
+2025-06-16 09:50:20 [32minfo[39m, POST /api/products
+2025-06-16 09:50:20 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 09:51:40 [32minfo[39m, POST /api/products
+2025-06-16 09:52:54 [32minfo[39m, POST /api/products
+2025-06-16 09:52:54 [31merror[39m, Error: 
+        POST,
+        /api/products,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 09:54:47 [32minfo[39m, PUT /api/products/400
+2025-06-16 09:55:15 [31merror[39m, Error: 
+        PUT,
+        /api/products/400,
+        undefined,
+        undefined,
+        SyntaxError
+2025-06-16 09:55:20 [32minfo[39m, PUT /api/products/400
+2025-06-16 09:55:40 [32minfo[39m, PUT /api/products/400
+2025-06-16 09:56:15 [32minfo[39m, PUT /api/products/4000
+2025-06-16 09:56:15 [31merror[39m, Error: 
+        PUT,
+        /api/products/4000,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 09:57:40 [32minfo[39m, PUT /api/products/200
+2025-06-16 09:57:40 [31merror[39m, Error: 
+        PUT,
+        /api/products/200,
+        undefined,
+        REQUIRED_FIELDS,
+        Error
+2025-06-16 09:58:42 [32minfo[39m, PUT /api/products/201
+2025-06-16 09:58:42 [31merror[39m, Error: 
+        PUT,
+        /api/products/201,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 09:59:29 [32minfo[39m, PUT /api/products/205
+2025-06-16 09:59:29 [31merror[39m, Error: 
+        PUT,
+        /api/products/205,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 10:00:37 [32minfo[39m, GET /api/products/152
+2025-06-16 10:02:00 [32minfo[39m, GET /api/products/152
+2025-06-16 10:02:05 [32minfo[39m, GET /api/products/152
+2025-06-16 10:02:47 [32minfo[39m, PATCH /api/products/10
+2025-06-16 10:03:38 [32minfo[39m, PATCH /api/products/10000
+2025-06-16 10:03:38 [31merror[39m, Error: 
+        PATCH,
+        /api/products/10000,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 10:04:24 [32minfo[39m, PATCH /api/products/10000
+2025-06-16 10:04:24 [31merror[39m, Error: 
+        PATCH,
+        /api/products/10000,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 10:05:11 [32minfo[39m, PATCH /api/products/100
+2025-06-16 10:05:11 [31merror[39m, Error: 
+        PATCH,
+        /api/products/100,
+        undefined,
+        INVALID_DATE_FORMAT,
+        Error
+2025-06-16 10:05:20 [32minfo[39m, PATCH /api/products/10000
+2025-06-16 10:05:20 [31merror[39m, Error: 
+        PATCH,
+        /api/products/10000,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 10:05:26 [32minfo[39m, PATCH /api/products/100
+2025-06-16 10:05:26 [31merror[39m, Error: 
+        PATCH,
+        /api/products/100,
+        undefined,
+        INVALID_STATUS_OUT_OF_STOCK,
+        Error
+2025-06-16 10:06:36 [32minfo[39m, DELETE /api/products/66
+2025-06-16 10:06:36 [31merror[39m, Error: 
+        DELETE,
+        /api/products/66,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 10:06:41 [32minfo[39m, DELETE /api/products/50
+2025-06-16 10:07:11 [32minfo[39m, DELETE /api/products/5000
+2025-06-16 10:07:11 [31merror[39m, Error: 
+        DELETE,
+        /api/products/5000,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
+2025-06-16 10:28:18 [32minfo[39m, POST /api/auth/signup
+2025-06-16 10:28:18 [31merror[39m, Error: 
+        POST,
+        /api/auth/signup,
+        undefined,
+        USER_ALREADY_EXISTS,
+        Error
+2025-06-16 10:28:28 [32minfo[39m, POST /api/auth/signup
+2025-06-16 10:33:44 [32minfo[39m, GET /api/auth/signup
+2025-06-16 11:16:24 [32minfo[39m, GET /api/products/1555
+2025-06-16 11:16:24 [31merror[39m, Error: 
+        GET,
+        /api/products/1555,
+        undefined,
+        PRODUCT_NOT_FOUND,
+        Error
