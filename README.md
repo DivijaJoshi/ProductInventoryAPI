@@ -1,4 +1,4 @@
-# 🛒 Product Inventory API
+# Product Inventory API
 
 1. Problem Statement: Product Inventory API  
 Description: Develop an API for managing product inventory where users can add, update, delete, and fetch product details.
@@ -105,3 +105,4 @@ error handling using callbacks
 Custom validations  
 Middlewares for logging,authentication and error handling.  
 testing using Jest and Supertest
+
